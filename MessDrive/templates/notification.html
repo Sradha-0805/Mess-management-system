@@ -1,0 +1,72 @@
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/notification.css">
+
+{% load static %}  
+    <link rel="stylesheet" href="{% static 'notification.css'%}">  
+
+<section class="section-50">
+    <div class="container">
+      <h3 class="m-b-50 heading-line">Notifications <i class="fa fa-bell text-muted"></i></h3>
+      <div class="notification-ui_dd-content">
+        <div class="notification-list notification-list--unread">
+          <div class="notification-list_content">
+            <div class="notification-list_img">  </div>
+            <div class="notification-list_detail">
+              <p><b>Due Date</b> Mess bill</p>
+              <p class="text-muted">Last due date of mess bill for the month may is 15/07/2022 </p>
+              <p class="text-muted">All the inmates are requetsed to pay it on or before due.</p>
+            </div>
+          </div>
+          <div class="notification-list_feature-img"> </div>
+        </div>
+        <div class="notification-list notification-list--unread">
+          <div class="notification-list_content">
+            <div class="notification-list_img">  </div>
+            <div class="notification-list_detail">
+              <p><b>Staff Salary</b> date is 30/06/2022</p>
+              <p class="text-muted">All staff requested to recieve it on the above mentioned date</p>
+              
+            </div>
+          </div>
+          <div class="notification-list_feature-img">  </div>
+        </div>
+        <div class="notification-list notification-list--read">
+          <div class="notification-list_content">
+            <div class="notification-list_img">  </div>
+            <div class="notification-list_detail">
+              <p><b>Attendance</b> </p>
+              <p class="text-muted">If inmates or staffs have any issues on attendance, please verify it before 02nd july evening </p>
+              
+            </div>
+          </div>
+          <div class="notification-list_feature-img">  </div>
+        </div>
+        <div class="notification-list notification-list--read">
+          <div class="notification-list_content">
+            <div class="notification-list_img">  </div>
+            <div class="notification-list_detail">
+              <p><b>Mess bill </b> for the month is updated</p>
+              <p class="text-muted">check it and if there is any issue please inform quikly</p>
+              
+            </div>
+          </div>
+    
+          <div class="notification-list_feature-img">  </div>
+        </div>
+      </div>
+      <div class="text-center"> <a href="#" class="btn btn-success">Load more activity</a> </div>
+    </div>
+  </section>
+  <body>
+    <!-- <nav>
+      <ul class="nav-area">
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'notification' %}">Notification</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+            <li><a href="{% url 'index' %}">Kabani/Nila</a></li>
+      </ul>
+    </nav>
+  </body> -->
